@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.app-flex-cont{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px 80px;
+}
+/* ------------Emptydiv-------------- */
+.emplty-div{
+  border: 1px solid black;
+  width: 90%;
+  height: 85%;
+  padding: 10px 0px;
+  margin: auto;
+}
+.empty-circles{
+  cursor: pointer;
+}
+/* ------------circles------------ */
+.circles-main-cont{
+  margin-left: 30px;
+}
+.circles-sub-cont{
+  width: 28%;
+  margin: auto;
+}
+.cirles{
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.sky{
+  background-color: skyblue;
+}
+.teal{
+  background-color: teal;
+}
+.lightgreen{
+  background-color: lightgreen;
+}
+.crimson{
+  background-color: crimson;
+}
+.purple{
+  background-color: purple;
+}
+
+/* ------------------------shoot-btn---------------- */
+.shoot-cont{
+  margin-top: 50%;
+}
+input{
+  padding: 9px;
+  width: 12%;
+  border-radius: 3px;
+}
+.shoot-btn{
+  cursor: pointer;
+  width: 25%;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(248, 111, 61);
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
